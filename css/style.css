@@ -150,7 +150,7 @@ h1 {
   border-bottom: 7px solid #23b99f;
   margin-bottom: 20px;
 }
-.box-clear .ribbon{
+.box-clear .ribbon {
   margin-top: 0;
 }
 #price-list {
@@ -165,9 +165,50 @@ h2 {
   border-bottom: 7px solid #23b99f;
   padding-top: 50px;
 }
-#price-list .box{
+#price-list .box {
   height: 500px;
 }
-#contact{
+.box-price {
+  background-color: #F8F9F9;
+  margin-top: 75px;
+  border: 2px solid #D6D5D5;
+  position: relative;
+}
+.circle{
+  transform: translate(-50%);
+  left: 50%;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle-outer {
+  background-color: #F8F9F9;
+  border: 2px solid #D6D5D5;
+  height: 57px;
+  width: 57px;
+  top: -35px;
+}
+.circle-inner{
+  background-color: #D6D5D5;
+  height: 26px;
+  width: 26px;
+  top: 13px;
+}
+.circle-price{
+  height: 131px;
+  width: 131px;
+  border: 2px solid #D6D5D5;
+  margin-bottom: 30px;
+}
+h4 {
+  color: #23b99f;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px auto;
+}
+.describtion{
+  font-size: 24px;
+}
+#contact {
   height: 550px;
 }
