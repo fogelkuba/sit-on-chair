@@ -102,17 +102,20 @@ h1 {
   text-align: center;
   line-height: 20px;
 }
+.button{
+  background-color: #23b99f;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
 .welcome-button {
   width: 260px;
   height: 50px;
   background-color: #23b99f;
   margin: 0 auto;
   line-height: 50px;
-  border-radius: 10px;
-  text-transform: uppercase;
   font-size: 24px;
 }
-
 /*boxes*/
 .box {
   width: 330px;
@@ -208,6 +211,37 @@ h4 {
 }
 .describtion{
   font-size: 24px;
+}
+.describtion {
+  margin-top: 190px;
+}
+.describtion li{
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #787878;
+}
+.describtion li:first-of-type{
+  border-top: 2px solid #fff;
+}
+.describtion li:nth-of-type(2n+1){
+  background-color: #e4e4e4
+}
+.describtion li:nth-of-type(2n){
+  background-color: #f1f1f1;
+}
+.button-join{
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
+  bottom: 20px;
+  border: none;
+  text-transform: uppercase;
+  height: 30px;
+  width: 120px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 30px;
 }
 #contact {
   height: 550px;
