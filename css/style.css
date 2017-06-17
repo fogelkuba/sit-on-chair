@@ -81,6 +81,7 @@ span {
 /*style*/
   position: relative;
   height: 500px;
+  width: 100%;
 }
 #welcome img {
   padding-top: 100px;
@@ -88,7 +89,7 @@ span {
 .welcome-text {
   position: absolute;
   top: 140px;
-  right: 230px;
+  left: 630px;
   float: right;
   width: 450px;
   text-align: center;
@@ -115,6 +116,24 @@ h1 {
   margin: 0 auto;
   line-height: 50px;
   font-size: 24px;
+}
+.arrows-control {
+  width: 1050px;
+  position: absolute;
+  top: 180px;
+  transform: translate(-50%);
+  left: 50%;
+  padding: 20px;
+}
+.arrows{
+  color: #23b99f;
+  font-size: 78px;
+}
+.arrows-control-left{
+  float: left;
+}
+.arrows-control-right{
+  float: right;
 }
 /*boxes*/
 .box {
@@ -176,6 +195,7 @@ h2 {
   margin-top: 75px;
   border: 2px solid #D6D5D5;
   position: relative;
+  transition: 0.3s;
 }
 .circle{
   transform: translate(-50%);
@@ -201,6 +221,7 @@ h2 {
   width: 131px;
   border: 2px solid #D6D5D5;
   margin-bottom: 30px;
+  background-color: #F8F9F9;
 }
 h4 {
   color: #23b99f;
@@ -242,6 +263,38 @@ h4 {
   border-radius: 8px;
   font-size: 16px;
   line-height: 30px;
+  cursor: pointer;
+}
+
+.box-price:hover{
+  background-color: #23b99f;
+  border-color:#23b99f;
+}
+.box-price:hover .button-join{
+  background-color: #F8F9F9;
+  color: #23b99f;
+}
+.box-price:hover h4{
+  color: #F8F9F9;
+}
+.box-price:hover .circle-price{
+  border-color: #23b99f;
+}
+.box-price:hover .circle-outer{
+  border-color: #23b99f;
+  background-color: #23b99f;
+}
+.box-price:hover .circle-inner{
+  background-color: #F8F9F9;
+}
+.box-price:hover .describtion li:first-of-type{
+  border-color: #23b99f;
+}
+.box-price:hover .describtion li:nth-of-type(2n+1){
+  background-color: #f1f1f1;
+}
+.box-price:hover .describtion li:nth-of-type(2n){
+  background-color: #e4e4e4;
 }
 #contact {
   height: 550px;
