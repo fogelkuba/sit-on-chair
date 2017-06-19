@@ -195,7 +195,7 @@ h2 {
   margin-top: 75px;
   border: 2px solid #D6D5D5;
   position: relative;
-  transition: 0.3s;
+  /*transition: 0.3s;*/
 }
 .circle{
   transform: translate(-50%);
@@ -222,6 +222,18 @@ h2 {
   border: 2px solid #D6D5D5;
   margin-bottom: 30px;
   background-color: #F8F9F9;
+  line-height: 111px;
+}
+.price-tag{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  color: #c2c2c2;
+
+}
+.price-tag span{
+  color: #c2c2c2;
+  font-size: 16px;
 }
 h4 {
   color: #23b99f;
@@ -265,7 +277,6 @@ h4 {
   line-height: 30px;
   cursor: pointer;
 }
-
 .box-price:hover{
   background-color: #23b99f;
   border-color:#23b99f;
